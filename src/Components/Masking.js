@@ -40,7 +40,7 @@ export default function Masking() {
 
             try {
                 const res = await axios.post(
-                    "http://localhost:3001/api/v1/files/mask-words",
+                    "https://filesenseamd64.onrender.com/api/v1/files/mask-words",
                     formData,
                     {
                         headers: {

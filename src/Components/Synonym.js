@@ -34,7 +34,7 @@ export default function Synonym() {
         Promise.all(
             formDataArray.map((formData) =>
                 axios.post(
-                    "http://localhost:3001/api/v1/files/get/synonyms",
+                    "https://filesenseamd64.onrender.com/api/v1/files/get/synonyms",
                     formData,
                     {
                         headers: {
