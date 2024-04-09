@@ -83,6 +83,7 @@ export default function Masking() {
                             <input
                                 type="file"
                                 name="file"
+                                accept=".txt"
                                 onChange={(e) => handleFileChange(e, index)}
                             />
                         </div>

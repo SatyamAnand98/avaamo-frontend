@@ -77,7 +77,7 @@ export default function Synonym() {
                             <input
                                 type="file"
                                 name="files"
-                                multiple
+                                accept=".txt, .docx, .doc, .pdf, .jpg, .jpeg, .png"
                                 onChange={(e) => handleFileChange(e, index)}
                             />
                         </div>

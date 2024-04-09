@@ -64,7 +64,7 @@ export default function UniqueWord() {
                         <input
                             type="file"
                             name="files"
-                            multiple
+                            accept=".txt, .docx, .doc, .pdf, .jpg, .jpeg, .png"
                             onChange={(e) => handleFileChange(e, index)}
                         />
                     </div>
